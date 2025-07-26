@@ -1,0 +1,108 @@
+/* Add spacing after the Choose List field */
+.list-section {
+  margin-bottom: 20px;
+}
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f3f2f2 0%, #eeebeb 100%);
+  padding: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 28px 24px 24px 24px;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  border: 1px solid #e0e0e0;
+}
+
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section > div {
+  flex-basis: 100%;
+}
+
+.input-section input,
+.input-section textarea,
+.input-section select {
+  padding: 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.input-section button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #0d738d 0%, #35bfe9 100%);
+  color: #222;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(102,166,255,0.08);
+}
+
+.input-section button:hover {
+  background: linear-gradient(90deg, #88d8ec 0%, #4dc7cf 100%);
+  color: #222;
+  box-shadow: 0 4px 16px rgba(102,166,255,0.18);
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #f7fbff;
+  padding: 16px 14px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(102,166,255,0.07);
+  border-left: 6px solid #6e0409;
+  transition: box-shadow 0.2s;
+}
+.task:hover {
+  box-shadow: 0 6px 18px rgba(102,166,255,0.18);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #b0b0b0;
+  background: #f0f0f0;
+}
+.priority {
+  font-size: 0.95em;
+  font-weight: bold;
+  padding: 2px 10px;
+  border-radius: 12px;
+  margin-left: 8px;
+}
+.priority[value="High"], .priority-high {
+  background: #ffb3b3;
+  color: #fff9f9;
+}
+.priority[value="Medium"], .priority-medium {
+  background: #ffe0b2;
+  color: #ff9800;
+}
+.priority[value="Low"], .priority-low {
+  background: #b2ffb2;
+  color: #388e3c;
+}
