@@ -41,18 +41,22 @@ A basic and elegant To-Do List web application designed to help users organize t
    ```bash
    git clone https://github.com/your-username/todo-app.git
 
-📌 Future Enhancements
+## Future Enhancements
 
-Add persistent storage using localStorage
+**Add persistent storage using localStorage** 
 
-Add drag-and-drop for task reordering
+**Add drag-and-drop for task reordering** 
 
-Add search and filter functionality
+**Add search and filter functionality** 
 
-🙋‍♀️ Author
-Nashwa B
-LinkedIn
-GitHub
+## 📄 License
 
-📄 License
-This project is licensed under the MIT License.
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♀️ Author
+
+**Nashwa B**  
+GitHub: [@nashwa-b](https://github.com/nashwa-b)
+LinkedIn: [Nashwa B](https://www.linkedin.com/in/nashwab)
